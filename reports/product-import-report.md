@@ -1,0 +1,275 @@
+# Product Import Report
+
+Generated: 2026-08-17T17:19:08.577Z
+
+| Brand | Discovered / imported | JPEGs mapped | Missing official images | Verification notes |
+| --- | ---: | ---: | ---: | --- |
+| ZOJE | 227 | 57 | 170 | Official source records. |
+| JACK | 79 | 76 | 3 | Official source records. |
+| USHA | 72 | 72 | 0 | Official source records. |
+| Geminy | 19 | 19 | 0 | Official source records. |
+| QMach | 12 | 12 | 0 | Official source records. |
+| SONEX | 71 | 0 | 71 | Official source records. |
+| MODI | 3 | 0 | 3 | Includes records needing manual verification. |
+| NIRMA | 0 | 0 | 0 | No reliable sewing-machine source found; no products added. |
+| ANSWER | 16 | 16 | 0 | Official source records. |
+| SINGER | 135 | 135 | 0 | Official source records. |
+
+Total product records: 634
+Referenced JPEG files: 387
+Removed unmatched model/image mappings: 170
+Broken local image paths: 0
+
+## Manual-verification queue
+- JACK A2C: Source page could not be fetched during import: https://www.jack-sewing.com/lockstitch/jack-A2C/index.html: 404 Not Found
+- JACK A4C: Source page could not be fetched during import: https://www.jack-sewing.com/lockstitch/jack-A4C/index.html: 404 Not Found
+- JACK J5: Image could not be downloaded from the source: terminated
+- MODI Link Model: One reliable dealer source; needs manufacturer confirmation.
+- MODI Overlock: Needs manual manufacturer verification; no clean model-specific source image was used.
+- MODI Zigzag Gear: Needs manual manufacturer verification; no clean model-specific source image was used.
+- SONEX B-3 Computerised 3 Function High Speed Direct Drive Single Needle Lockstitch UBT: No model-specific clean official image available; no substitute image was used.
+- SONEX B1-Q High Speed Direct Drive Single Needle Lockstitch: No model-specific clean official image available; no substitute image was used.
+- SONEX B2-Q High Speed Direct Drive Single Needle Lockstitch Sewing Machine (With Auto Trimmer): No model-specific clean official image available; no substitute image was used.
+- SONEX B20: No model-specific clean official image available; no substitute image was used.
+- SONEX B22: No model-specific clean official image available; no substitute image was used.
+- SONEX F1: No model-specific clean official image available; no substitute image was used.
+- SONEX H7-4EUT: No model-specific clean official image available; no substitute image was used.
+- SONEX H8: No model-specific clean official image available; no substitute image was used.
+- SONEX H8A-5H: No model-specific clean official image available; no substitute image was used.
+- SONEX S1 High Speed Direct Drive Single Needle Lockstitch: No model-specific clean official image available; no substitute image was used.
+- SONEX S1-2 High Speed Direct Drive Single Needle Lockstitch Sewing Machine (With Auto Trimmer): No model-specific clean official image available; no substitute image was used.
+- SONEX SX 0303: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 0358D-CQ: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1341: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1341-7AT: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1377D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1404PMD: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1408P-D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1411PSF: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1508P-D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1509P-D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1530D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1790: No model-specific clean official image available; no substitute image was used. | No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1965: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 1965-EJ: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 202: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 2284D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 335H: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 341: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 373: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 430D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 4408PMD: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 6530D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 664D-35BB-UT: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 6804D/5D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 720: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 781EF: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 786-4D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 786-5D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 818D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 8420D/SX 8450D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 8720D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 8750D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 8842D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX 9820: No model-specific clean official image available; no substitute image was used. | No model-specific clean official image available; no substitute image was used.
+- SONEX SX U 1191-7SS: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-0303D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-103-KM: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-110S: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1302 4W: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1302 5W: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1412P: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1508P: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1850: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1900ASS: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-1903ASS: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-2000C: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-20518: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-20528: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-500D-05: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-5200D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-783: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-786-6D: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-842-3/5: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-90DS: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-9100: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-928 PL: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-CZD-3A-EASTMAN: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-DB-1: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-F007-W122-356: No model-specific clean official image available; no substitute image was used.
+- SONEX SX-F858K: No model-specific clean official image available; no substitute image was used.
+- ZOJE A0323-CT-D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A0323-CT-L_-D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A0323-CX-D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A0323-CX-L_-D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A0323-M-D4: Reused an identical processed official image. | Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5400: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5400-B: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5400-B-B1: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5400-D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5400-D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5490L: Reused an identical processed official image. | Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A5490L-CP: Reused an identical processed official image. | Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- 5G: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- 5G- S7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- D- 5G: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- D- 5G- S7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- D- G: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- D- HG: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- G: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- G- S7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE A6000- HG: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-02×250-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-13-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-13-SD3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-16S2-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-17-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-180: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-181: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-355-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-365-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-38-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-38-SD3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-70-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-86-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B7500-86H-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B8510W-13-MD4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B8510W-38-MD4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B8510W-70-MD4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9000P-13: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9000P-17: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9000P-38: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9000P-70: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-02x250-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-13-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-13-SD3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-13H 四线厚料: Reused an identical processed official image. | Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-16S2-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-17-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-180: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-181: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-355-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-365-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-38 五线中厚料: Reused an identical processed official image. | Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-38-SD3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-70-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE B9500-86-*: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C1510: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-356-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-364-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-G-356-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-G-364-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-G2-356-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000-G2-364-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE C5000L-356-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3842- 5- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3842- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3842A- 5- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3842A- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845- 5- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845- 5- D5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845- D5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845A- 5- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3845A- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3872- 5- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3872- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3872A- 5- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3872A- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875- 5- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875- 5- D5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875- D4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875- D5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875A- 5- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE D3875A- D2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE E9630-D3-CM/M/ZM/ZH/H/CH-C/B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE E9630-D3D-ZM/ZH-C/B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE E9640-D3-CH-N2.0/2.2/2.4-C/B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE E9640-D3-H-N1.8/N2.0-C/B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE E9640-D3-M/ZM/ZH-N1.4/N1.8-C/B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-A3800-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-A3820-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-A3830-P-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-A3830-S-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-A4810-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-APW-2520: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-K6300B: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-KL1606S: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-KP160: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M3-S500-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M3-S500-SF-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M3-S500H-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M3-S500H-SF-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M5-S900H-SF-K2-V7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M5-S900H-SF-V7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M5-S900H-SF-X-LK2-V7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M5-S900H-SF-X-V7: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M6-GS900-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M6-GS900H-SF-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M6-S900-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M6-S900H-SF-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M7-GS900H-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M7-S900H-SF-V2: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M7-S955H-SF-BD-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M7-S955H-SF-K2-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-M7-S955H-SF-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-UA-5781D-SY-WB5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-UA-5781DS-LD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-UA-A8100W-XC-WE5: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-UB-1900DSS-DPJ-04A-V4: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ-USM8O16: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ0303L-3-BD/D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ0303L-3-CX-BD/D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ0303L-3-CX-L-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ0303L-3-H-BD/D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ2479A-056M-VF-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ2479A-064M-VF-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ2539A-156S-1-VF-BD-D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ2539A-164S-1-VF-BD-D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 1510HD1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 1510HF1/HB1/HC1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 1510HG1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 1510HH1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 2213HF1/HB1/HC1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 3020HF1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5770A- 3020HH1- C: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781DK-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781DL-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781DS-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781DS-V3-DS: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781EK-3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781EL-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5781ES-V3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5821A: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ5822A: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ781- 3- BD/PF: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ781- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ781- S- 3- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ782- 3- BD/PF: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ782- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ782- S- 3- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ783- 3- BD/PF: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ783- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ783- S- 3- BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8420-5-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8420-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8450-5-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8450-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8650-D3D-ZH-B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8650-D3D-ZH-C-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8650-D3D-ZM-B-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8650-D3D-ZM-C-02-V: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8720-5-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8720-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8750-5-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ8750-BD: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ9610D-D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ9610SA-D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ9620SA-D3: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ9903AR-D3B-02: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+- ZOJE ZJ9903AR-D3B-02/PF: Reused an identical processed official image. | Removed an unmatched global source graphic; a model-specific official image was not available for safe assignment.
+
+## Integrity policy
+- Every retained image path was checked locally.
+- ZOJE records with a global/unmatched source graphic were changed to image-missing rather than showing a different machine.
+- No Nirma model was created because no reliable sewing-machine source was located.

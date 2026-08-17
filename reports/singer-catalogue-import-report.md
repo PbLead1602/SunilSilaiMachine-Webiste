@@ -1,0 +1,151 @@
+# SINGER Catalogue Import Report
+
+Generated: 2026-08-17T17:18:30.993Z
+
+Official category: https://shop.singerindia.com/product-category/sewing-machines/
+
+- Discovered official category records: 136
+- New products added: 126
+- Existing products updated: 9
+- Duplicate products skipped: 1
+- JPEGs stored: 128
+- Existing JPEGs reused: 8
+- Missing official images: 0
+- Interim non-sewing/orphan JPEGs removed: 119
+
+## Source-backed records
+- SINGER FM 4323 — https://shop.singerindia.com/product/fm-4323/
+- SINGER FM 3432 — https://shop.singerindia.com/product/fm-3432/
+- SINGER FM 3323 — https://shop.singerindia.com/product/fm-3323/
+- SINGER FM 1410 — https://shop.singerindia.com/product/fm-1410/
+- SINGER FM 1307 — https://shop.singerindia.com/product/fm-1307/
+- SINGER 4023 Heavy Duty foot Basic with SM Stand-SV — https://shop.singerindia.com/product/singer-4023-foot-basic-with-sm-stand-sv/
+- SINGER 4023 Heavy Duty with Aristocase — https://shop.singerindia.com/product/singer-4023-with-aristocase/
+- SINGER 4023 Heavy Duty Head Only — https://shop.singerindia.com/product/singer-4023-heavy-duty-head-only/
+- SINGER 4002 Heavy Duty foot Basic with SM Stand-SV — https://shop.singerindia.com/product/singer-4002-foot-basic-with-sm-stand-sv/
+- SINGER 4002 Heavy Duty with Aristocase — https://shop.singerindia.com/product/singer-4002-with-aristocase/
+- SINGER 4002 Heavy Duty Head only — https://shop.singerindia.com/product/singer-4002-heavy-duty/
+- SINGER Tailor Mate — https://shop.singerindia.com/product/singer-tailor-mate-copy/
+- SINGER Sovereign Unit Pack — https://shop.singerindia.com/product/singer-sovereign-unit-pack-copy/
+- SINGER Popular Unit Pack — https://shop.singerindia.com/product/singer-popular-unit-pack-copy/
+- SINGER Magna Supreme Unit Pack — https://shop.singerindia.com/product/singer-magna-supreme-unit-pack-copy/
+- SINGER Sonata Unit Pack — https://shop.singerindia.com/product/singer-sonata-unit-pack-copy/
+- SINGER Sonata Supreme Unit Pack — https://shop.singerindia.com/product/singer-sonata-supreme-unit-pack-copy/
+- SINGER Solo Unit Pack Sewing Machine — https://shop.singerindia.com/product/singer-solo-unit-pack-sewing-machine-copy/
+- SINGER Merritt Sewing Machine 89 ND 12 H/TA A Cover — https://shop.singerindia.com/product/singer-merritt-sewing-machine-89-nd-12-h-ta-a-cover-copy/
+- SINGER Tailor with Link Motion — https://shop.singerindia.com/product/singer-tailor-with-link-motion-copy/
+- SINGER Sonata Supreme Head — https://shop.singerindia.com/product/singer-sonata-supreme-head-copy/
+- SINGER Magna Supreme Head — https://shop.singerindia.com/product/singer-magna-supreme-head-copy/
+- SINGER Magna Head — https://shop.singerindia.com/product/singer-magna-head-copy/
+- SINGER Sovereign Head — https://shop.singerindia.com/product/singer-sovereign-head-copy/
+- SINGER Tailor Head — https://shop.singerindia.com/product/singer-tailor-head-copy/
+- SINGER Merritt Sonata Supreme Head — https://shop.singerindia.com/product/merritt-sonata-supreme-head-copy/
+- SINGER Merritt Magic Premium Head — https://shop.singerindia.com/product/merritt-magic-premium-head-copy/
+- SINGER Merritt Magic Head — https://shop.singerindia.com/product/merritt-magic-head-copy/
+- SINGER Merritt Magic Supreme Head — https://shop.singerindia.com/product/merritt-magic-supreme-head-copy/
+- SINGER Merritt Tailor Master Head — https://shop.singerindia.com/product/merritt-tailor-master-head-copy/
+- SINGER Merritt Tailor Head — https://shop.singerindia.com/product/merritt-tailor-head-copy/
+- SINGER Tailor Head Blue — https://shop.singerindia.com/product/singer-tailor-head-blue-copy/
+- SINGER Merritt Tailor Head Blue — https://shop.singerindia.com/product/merritt-tailor-head-blue-copy/
+- SINGER Tailor Head Green — https://shop.singerindia.com/product/singer-tailor-head-green-copy/
+- SINGER Merritt Tailor Head Green — https://shop.singerindia.com/product/merritt-tailor-head-green-copy/
+- SINGER Tailor Head Brown — https://shop.singerindia.com/product/singer-tailor-head-brown-copy/
+- SINGER Merritt Tailor Head Brown — https://shop.singerindia.com/product/merritt-tailor-head-brown-copy/
+- SINGER Tailor Head Red — https://shop.singerindia.com/product/singer-tailor-head-red-copy/
+- SINGER Merritt Tailor Head Red — https://shop.singerindia.com/product/merritt-tailor-head-red-copy/
+- SINGER Solo – Red Unit Pack — https://shop.singerindia.com/product/singer-solo-red-unit-pack-copy/
+- SINGER FM SINGER New Elite — https://shop.singerindia.com/product/fm-singer-new-elite/
+- SINGER SE 1201F-58 — https://shop.singerindia.com/product/se1201f-58/
+- SINGER Merritt Universal Supreme Head — https://shop.singerindia.com/product/merritt-universal-supreme-head/
+- SINGER Merritt Bag Closer- Single Needle. — https://shop.singerindia.com/product/merritt-bag-closer-single-needle/
+- SINGER Merritt Craftman Head — https://shop.singerindia.com/product/merritt-craftman-head/
+- SINGER Merritt Finedge Head — https://shop.singerindia.com/product/merritt-finedge-head/
+- SINGER Merritt Stitch Master Head — https://shop.singerindia.com/product/merritt-stitch-master-head/
+- SINGER Merritt Stitch Master with Gear Head — https://shop.singerindia.com/product/merritt-stitch-master-with-gear-head/
+- SINGER Merritt Universal Head with Indian Hook Set — https://shop.singerindia.com/product/merritt-universal-head-with-indian-hook-set/
+- SINGER Merritt Universal Unimet — https://shop.singerindia.com/product/merritt-universal-unimet/
+- SINGER Merritt Workmate Head with Indian H.Set — https://shop.singerindia.com/product/merritt-workmate-head-with-indian-h-set/
+- SINGER Merritt Workmate Head with Indian H.Set-New — https://shop.singerindia.com/product/merritt-workmate-head-with-indian-h-set-new/
+- SINGER Finedge Head — https://shop.singerindia.com/product/singer-finedge-head/
+- SINGER Stitch Master Head — https://shop.singerindia.com/product/singer-stitch-master-head/
+- SINGER Stitch Master With Gear Head — https://shop.singerindia.com/product/singer-stitch-master-with-gear-head/
+- SINGER Workmate Head with Indian H.Set — https://shop.singerindia.com/product/singer-workmate-head-with-indian-h-set/
+- SINGER Workmate Head with Indian H.Set-New — https://shop.singerindia.com/product/singer-workmate-head-with-indian-h-set-new/
+- SINGER Universal Supreme — https://shop.singerindia.com/product/singer-universal-supreme/
+- SINGER Husqvarna Onyx 15 — https://shop.singerindia.com/product/husqvarna-onyx-15/
+- SINGER Husqvarna Onyx 25 — https://shop.singerindia.com/product/husqvarna-onyx-25/
+- SINGER Husqvarna Topaz 50 — https://shop.singerindia.com/product/husqvarna-topaz-50/
+- SINGER SS 9900 — https://shop.singerindia.com/product/ss-9900/
+- SINGER 9900-Y — https://shop.singerindia.com/product/9900-y/
+- SINGER 9900H-Y ( Large Hook ) — https://shop.singerindia.com/product/9900h-y-large-hook/
+- SINGER 9900 — https://shop.singerindia.com/product/9900/
+- SINGER SS 9900 T — https://shop.singerindia.com/product/ss-9900-t/
+- SINGER SS 9900 T -3 — https://shop.singerindia.com/product/ss-9900-t-3/
+- SINGER SS 9900 T -4 Pro — https://shop.singerindia.com/product/ss-9900-t-4-pro/
+- SINGER SS 9900 T4 — https://shop.singerindia.com/product/ss-9900-t4/
+- SINGER S 8140 — https://shop.singerindia.com/product/s-8140/
+- SINGER S 8150 — https://shop.singerindia.com/product/s-8150/
+- SINGER S 8140-Y — https://shop.singerindia.com/product/s-8140-y/
+- SINGER S 8150-Y — https://shop.singerindia.com/product/s-8150-y/
+- SINGER SE – 299 — https://shop.singerindia.com/product/se-299/
+- SINGER S-0303 — https://shop.singerindia.com/product/s-0303/
+- SINGER SE-1900 — https://shop.singerindia.com/product/se-1900/
+- SINGER SE-1903 — https://shop.singerindia.com/product/se-1903/
+- SINGER S 5400 — https://shop.singerindia.com/product/s-5400/
+- SINGER S 5400 -Y — https://shop.singerindia.com/product/s-5400-y/
+- SINGER SE-600 D — https://shop.singerindia.com/product/se-600-d/
+- SINGER S – 842 — https://shop.singerindia.com/product/s-842/
+- SINGER S- 845 — https://shop.singerindia.com/product/s-845/
+- SINGER S -781F-Y — https://shop.singerindia.com/product/s-781f-y/
+- SINGER SE -1790 — https://shop.singerindia.com/product/se-1790/
+- SINGER S 1377D-Y — https://shop.singerindia.com/product/s-1377d-y/
+- SINGER S-261-21 — https://shop.singerindia.com/product/s-261-21/
+- SINGER S-261-23 — https://shop.singerindia.com/product/s-261-23/
+- SINGER S-1404 PSF — https://shop.singerindia.com/product/s-1404-psf/
+- SINGER S- 1412 P — https://shop.singerindia.com/product/s-1412-p/
+- SINGER S- 20U-53 -Y — https://shop.singerindia.com/product/s-20u-53-y/
+- SINGER S- 450 B — https://shop.singerindia.com/product/s-450-b/
+- SINGER S 3C-8 — https://shop.singerindia.com/product/s-3c-8/
+- SINGER S – 101 D — https://shop.singerindia.com/product/s-101-d/
+- SINGER S 7770 -D — https://shop.singerindia.com/product/s-7770-d/
+- SINGER Promise FM 1408 — https://shop.singerindia.com/product/singer-promise-fm-1408/
+- SINGER Start FM 1304 — https://shop.singerindia.com/product/singer-start-fm-1304/
+- SINGER Promise FM 1409 — https://shop.singerindia.com/product/singer-promise-fm-1409/
+- SINGER Promise FM 1412 — https://shop.singerindia.com/product/singer-promise-fm-1412/
+- SINGER FM 8280 — https://shop.singerindia.com/product/singer-fm-8280/
+- SINGER Elite — https://shop.singerindia.com/product/singer-elite/
+- SINGER M 2605 — https://shop.singerindia.com/product/singer-m-2605/
+- SINGER HD 4423 — https://shop.singerindia.com/product/singer-hd-4423/
+- SINGER M 3505 — https://shop.singerindia.com/product/singer-m-3505/
+- SINGER M 3330 — https://shop.singerindia.com/product/singer-m-3330/
+- SINGER M 3305 — https://shop.singerindia.com/product/singer-m-3305/
+- SINGER Talent FM 3321 — https://shop.singerindia.com/product/singer-talent-fm-3321/
+- SINGER Elegance — https://shop.singerindia.com/product/singer-elegance/
+- SINGER C5205 — https://shop.singerindia.com/product/singer-c5205/
+- SINGER SE9185 — https://shop.singerindia.com/product/singer-se9185/
+- SINGER Bobbin Case — https://shop.singerindia.com/product/singer-bobbin-case-2/
+- SINGER DISC ASSEMBLY — https://shop.singerindia.com/product/singer-disc-assembly/
+- SINGER Feed Dog — https://shop.singerindia.com/product/singer-feed-dog-2/
+- SINGER Needle Plate Cover — https://shop.singerindia.com/product/singer-needle-plate-cover/
+- SINGER Led Light With Holder Cpl 220V — https://shop.singerindia.com/product/singer-led-light-with-holder-cpl-220v-2/
+- SINGER Pattern Selector Dial — https://shop.singerindia.com/product/singer-pattern-selector-dial/
+- SINGER Motor — https://shop.singerindia.com/product/singer-motor/
+- SINGER Openshuttle Race Black Plastic Lever(Right)-Fm8280 — https://shop.singerindia.com/product/singer-openshuttle-race-black-plastic-leverright-fm8280/
+- SINGER Open Shuttle Race Black Plastic Lever(Left)-Fm8280 — https://shop.singerindia.com/product/singer-open-shuttle-race-black-plastic-leverleft-fm8280/
+- SINGER Shuttle Driver Shaft Gear — https://shop.singerindia.com/product/singer-shuttle-driver-shaft-gear/
+- SINGER Bobbin — https://shop.singerindia.com/product/singer-bobbin/
+- SINGER Shuttle Hook — https://shop.singerindia.com/product/singer-shuttle-hook/
+- SINGER Lower Shaft Gear — https://shop.singerindia.com/product/singer-lower-shaft-gear/
+- SINGER Presser Bar Lifter Lever — https://shop.singerindia.com/product/singer-presser-bar-lifter-lever/
+- SINGER Dial Tension Supporter Plate Cover — https://shop.singerindia.com/product/singer-dial-tension-supporter-plate-cover/
+- SINGER Needle Plate — https://shop.singerindia.com/product/singer-needle-plate-2/
+- SINGER Auto Threader — https://shop.singerindia.com/product/singer-auto-threader/
+- SINGER Shuttle Driver — https://shop.singerindia.com/product/singer-shuttle-driver/
+- SINGER Open Shuttle Race — https://shop.singerindia.com/product/singer-open-shuttle-race/
+- SINGER Needle Clamp Cpl — https://shop.singerindia.com/product/singer-needle-clamp-cpl/
+- SINGER Thread Take Up Lever — https://shop.singerindia.com/product/singer-thread-take-up-lever/
+- SINGER Foot Control for FM 8280/1306/1304/1408/1409/1412/3505/3305 — https://shop.singerindia.com/product/singer-m3505-3350-foot-control/
+- SINGER Handheld Stapler Sewing Machine -White, Red – ( Built-in Stitches 1) — https://shop.singerindia.com/product/singer-handheld-stapler-sewing-machine-white-red-built-in-stitches-1/
+- SINGER Premium Gold Unit Pack Sewing Machine — https://shop.singerindia.com/product/singer-premium-gold-unit-pack-sewing-machine/
+- SINGER Sewing M/c Motor Aluminum Body 1/12 HP — https://shop.singerindia.com/product/sewing-m-c-motor-aluminum-body-1-12-hp/
+- SINGER Sewing M/c Motor Aluminum Body 1/20 HP — https://shop.singerindia.com/product/sewing-m-c-motor-aluminum-body-1-20-hp/
