@@ -16,6 +16,7 @@
     "assets:extract": "node scripts/extract-docx-assets.mjs",
     "catalogue:answer": "node scripts/import-answer-catalogue.mjs",
     "catalogue:singer": "node scripts/import-singer-catalogue.mjs",
+    "build:worker": "opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
