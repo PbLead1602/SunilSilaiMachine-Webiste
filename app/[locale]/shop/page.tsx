@@ -7,8 +7,8 @@ import { notFound } from "next/navigation";
 
 export const metadata: Metadata = { title: "Shop sewing machines, spare parts & accessories", description: "Browse domestic and industrial sewing machines, accessories, parts, and garment machinery in Akola." };
 
-export default async function ShopPage({ params, searchParams }: { params: Promise<{ locale: string }>; searchParams: Promise<{ category?: string }> }) {
-  const { locale } = await params; const { category } = await searchParams;
+export default async function ShopPage({ params, searchParams }: { params: Promise<{ locale: string }>; searchParams: Promise<{ category?: string; brand?: string }> }) {
+  const { locale } = await params; const { category, brand } = await searchParams;
   if (!isLocale(locale)) notFound(); const copy = t(locale); const labels = ui(locale);
-  return <div className="shell py-10 sm:py-14"><SectionHeading eyebrow={labels.allProducts} title={copy.categories} text={labels.localSource} /><CatalogueClient products={products} categories={categories} locale={locale} initialCategory={category ?? ""} /></div>;
+  return <div className="shell py-10 sm:py-14"><SectionHeading eyebrow={labels.allProducts} title={copy.categories} text={labels.localSource} /><CatalogueClient products={products} categories={categories} locale={locale} initialCategory={category ?? ""} initialBrand={brand ?? ""} /></div>;
 }

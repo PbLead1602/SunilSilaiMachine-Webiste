@@ -23,6 +23,8 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
   const [saved, setSaved] = useState(false);
   const [compared, setCompared] = useState(false);
   const copy = ui(locale);
+  const variantLabel = locale === "hi" ? "\u092a\u094d\u0930\u0915\u093e\u0930 / \u0935\u0947\u0930\u093f\u090f\u0902\u091f" : locale === "mr" ? "\u092a\u094d\u0930\u0915\u093e\u0930 / \u0935\u094d\u0939\u0947\u0930\u093f\u090f\u0902\u091f" : "Type / variant";
+  const variant = product.variant || product.productType;
   const labels = locale === "hi" ? { model: "\u092e\u0949\u0921\u0932", imagePending: "\u0938\u0924\u094d\u092f\u093e\u092a\u093f\u0924 \u092e\u0949\u0921\u0932 - \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 \u091b\u0935\u093f \u092a\u094d\u0930\u0924\u0940\u0915\u094d\u0937\u093f\u0924" } : locale === "mr" ? { model: "\u092e\u0949\u0921\u0947\u0932", imagePending: "\u092a\u0921\u0924\u093e\u0933\u0932\u0947\u0932\u0947 \u092e\u0949\u0921\u0947\u0932 - \u0905\u0927\u093f\u0915\u0943\u0924 \u092a\u094d\u0930\u0924\u093f\u092e\u093e \u092a\u094d\u0930\u0924\u0940\u0915\u094d\u0937\u0947\u0924" } : { model: "Model", imagePending: "Verified model - official image pending" };
 
   useEffect(() => {
@@ -40,9 +42,9 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
           quality={90}
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
           className="object-contain p-3 transition duration-500 group-hover:scale-105 sm:p-4"
-        /> : <div className="flex h-full items-center justify-center p-6 text-center"><div><ImageOff className="mx-auto size-8 text-clay" /><p className="mt-3 text-xs font-semibold leading-5 text-stone-600">{labels.imagePending}</p></div></div>}
+        /> : <div className="flex h-full items-center justify-center p-5 text-center"><div className="max-w-full"><ImageOff className="mx-auto size-8 text-clay" /><p className="mt-3 text-[11px] font-bold uppercase tracking-[0.1em] text-stone-500">{labels.model}</p><p className="mt-1 break-words text-base font-semibold leading-6 text-ink">{product.modelNumber ?? product.name}</p>{variant && <><p className="mt-4 text-[11px] font-bold uppercase tracking-[0.1em] text-stone-500">{variantLabel}</p><p className="mt-1 break-words text-sm font-semibold leading-5 text-ink">{variant}</p></>}<p className="mt-4 text-xs font-semibold leading-5 text-stone-600">{labels.imagePending}</p></div></div>}
         <div className="absolute left-3 top-3 flex max-w-[calc(100%-6rem)] gap-2 sm:left-4 sm:top-4">
-          {product.badge && <span className="rounded-full bg-white/90 px-2.5 py-1 text-[16px] font-bold uppercase leading-5 tracking-[0.08em] text-ink backdrop-blur sm:px-3 sm:py-1.5 sm:text-[20px]">{product.badge}</span>}
+          {product.badge && <span className="rounded-full bg-white/90 px-2.5 py-1 text-xs font-bold uppercase leading-5 tracking-[0.08em] text-ink backdrop-blur sm:px-3 sm:py-1.5 sm:text-sm">{product.badge}</span>}
         </div>
         <div className="absolute right-3 top-3 flex flex-col gap-2 sm:right-4 sm:top-4 sm:gap-3">
           <button aria-label={copy.saved} onClick={() => { const next = updateList(wishKey, product.slug); setSaved(next.includes(product.slug)); }} className="rounded-full bg-white/95 p-2.5 text-ink shadow-sm transition hover:text-clay sm:p-3">
@@ -54,9 +56,10 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
         </div>
       </div>
       <div className="min-w-0 p-5 sm:p-6">
-        <p className="text-[17px] font-bold uppercase leading-6 tracking-[0.08em] text-clay sm:text-[20px] sm:tracking-[0.1em]">{product.brand} · {categoryName(locale, product.category, product.category.replaceAll("-", " "))}</p>
+        <p className="text-xs font-bold uppercase leading-5 tracking-[0.08em] text-clay sm:text-sm sm:tracking-[0.1em]">{product.brand} · {categoryName(locale, product.category, product.category.replaceAll("-", " "))}</p>
         <h3 className="mt-3 min-h-14 font-display text-lg font-semibold leading-7 text-ink">{product.name}</h3>
         {product.modelNumber && <p className="mt-1 text-xs font-semibold uppercase tracking-[0.08em] text-stone-500">{labels.model}: {product.modelNumber}</p>}
+        {!product.image && variant && <p className="mt-1 text-xs font-semibold uppercase tracking-[0.08em] text-stone-500">{variantLabel}: {variant}</p>}
         <p className="mt-3 line-clamp-2 min-h-14 text-sm leading-6 text-stone-500">{product.shortDescription}</p>
         <div className="mt-5 flex flex-col items-start justify-between gap-2 border-t border-line pt-5 sm:flex-row sm:gap-3">
           <span className="flex items-center gap-2 text-xs font-semibold text-stone-600"><ShieldCheck className="size-4 shrink-0 text-clay" /> {copy.emi}</span>

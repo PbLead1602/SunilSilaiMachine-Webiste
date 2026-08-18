@@ -45,16 +45,16 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         </div>
       </div>
 
-      <div className="shell header-main flex min-h-[76px] items-center py-3 sm:min-h-24 sm:py-4 lg:min-h-[116px] 2xl:h-40 2xl:py-0">
+      <div className="shell header-main flex min-h-[76px] items-center py-3 sm:min-h-24 sm:py-4 lg:min-h-[108px] 2xl:min-h-[132px] 2xl:py-4">
         <Link href={`/${locale}`} className="group flex min-w-0 flex-1 items-center gap-2 sm:gap-3" aria-label="Sunil Silai Machine home">
-          <span className="flex size-14 shrink-0 items-center justify-center rounded-xl border border-[#ddc59f] bg-white p-0.5 shadow-card transition duration-300 group-hover:-translate-y-0.5 group-hover:border-gold sm:size-[72px] sm:rounded-2xl lg:size-[92px] 2xl:size-[125px] 2xl:p-1">
+          <span className="flex size-14 shrink-0 items-center justify-center rounded-xl border border-[#ddc59f] bg-white p-0.5 shadow-card transition duration-300 group-hover:-translate-y-0.5 group-hover:border-gold sm:size-[72px] sm:rounded-2xl lg:size-[84px] 2xl:size-[102px] 2xl:p-1">
             <Image src={business.logo} alt="Sunil Silai Machine logo" width={113} height={113} className="size-full rounded-[10px] object-contain 2xl:rounded-xl" priority />
           </span>
-          <span className="min-w-0 font-display text-[clamp(16px,4.8vw,21px)] font-semibold leading-[1.05] tracking-tight text-ink sm:whitespace-nowrap sm:text-[clamp(23px,3.4vw,30px)] lg:text-[clamp(28px,3vw,34px)] 2xl:flex 2xl:h-[100px] 2xl:items-center 2xl:text-[clamp(32px,2.5vw,38px)]">Sunil Silai Machine</span>
+          <span className="min-w-0 font-display text-[clamp(16px,4.8vw,21px)] font-semibold leading-[1.05] tracking-tight text-ink sm:whitespace-nowrap sm:text-[clamp(23px,3.4vw,30px)] lg:text-[clamp(27px,2.8vw,32px)] 2xl:flex 2xl:h-[88px] 2xl:items-center 2xl:text-[clamp(30px,2vw,34px)]">Sunil Silai Machine</span>
         </Link>
 
         <form onSubmit={submitSearch} className="hidden min-w-0 w-full 2xl:block">
-          <label className="flex h-16 items-center gap-3 rounded-full border border-line bg-white px-6 focus-within:ring-2 focus-within:ring-gold" aria-label="Search catalogue">
+          <label className="flex h-14 items-center gap-3 rounded-full border border-line bg-white px-5 focus-within:ring-2 focus-within:ring-gold" aria-label="Search catalogue">
             <Search className="size-5 shrink-0 text-stone-400" />
             <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} className="min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-stone-400" placeholder={copy.searchPlaceholder} />
             <button className="shrink-0 text-sm font-semibold text-clay" type="submit">{copy.search}</button>

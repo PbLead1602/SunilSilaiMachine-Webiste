@@ -17,6 +17,10 @@ Next.js 15, TypeScript, Tailwind CSS, Prisma/PostgreSQL, Auth.js, Cloudinary, Vi
 
 The website can be browsed without database credentials. Public enquiry forms open WhatsApp directly with the details entered by the visitor; they do not send notifications to a business email inbox.
 
+## Enquiry delivery for V1
+
+WhatsApp is the only public enquiry channel in V1. Every product, contact, repair, and finance form opens a pre-filled message to the configured business WhatsApp number. Do not configure Resend, SMTP, or any business email notification flow for this release.
+
 ## Content and media
 
 - The application serves the supplied images from `public/images`.

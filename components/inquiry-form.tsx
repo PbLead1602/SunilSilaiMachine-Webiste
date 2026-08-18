@@ -51,7 +51,7 @@ export function InquiryForm({ type = "CONTACT", productName, compact = false }: 
       {type === "REPAIR" && <><input name="machine" required placeholder={copy.machine} className={fieldClassName} /><input name="address" required placeholder={copy.address} className={fieldClassName} /></>}
       {type === "FINANCE" && <input name="machine" placeholder={copy.machine} className={fieldClassName} />}
       <textarea name="message" required rows={compact ? 3 : 4} placeholder={type === "REPAIR" ? copy.repairIssue : copy.message} className="w-full min-w-0 resize-none rounded-xl border border-line bg-white px-4 py-3.5 text-sm outline-none focus:ring-2 focus:ring-gold sm:px-5" />
-      <p className="text-[18px] leading-7 text-stone-500 sm:text-[21px]">{copy.privacy}</p>
+      <p className="text-sm leading-6 text-stone-500">{copy.privacy}</p>
       <button disabled={openingWhatsApp} className="button-primary w-full disabled:opacity-60">{openingWhatsApp ? <LoaderCircle className="size-5 animate-spin" /> : <Send className="size-5" />}{openingWhatsApp ? copy.sending : copy.chatWhatsapp}</button>
     </form>
   );

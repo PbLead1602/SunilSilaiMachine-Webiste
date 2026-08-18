@@ -4,6 +4,8 @@ type BrochureModel = {
   name: string;
   image: string;
   category: Product["category"];
+  modelNumber?: string;
+  productType?: string;
 };
 
 const assetRoot = "/images/products/brochure";
@@ -17,17 +19,24 @@ function toSlug(value: string) {
 
 function brochureProduct(brand: string, model: BrochureModel): Product {
   const slug = `${toSlug(brand)}-${toSlug(model.name)}`;
+  const modelNumber = model.modelNumber ?? model.name;
+  const productType = model.productType ?? "Sewing machine";
 
   return {
     slug,
     name: `${brand} ${model.name}`,
     brand,
+    modelNumber,
     category: model.category,
+    subcategory: productType,
+    series: modelNumber,
+    variant: productType,
+    productType,
     image: model.image,
     gallery: [model.image],
-    shortDescription: "Official brochure model. Enquire for specifications and availability.",
-    description: "This model and image are supplied in the official product brochure. Contact our team for specifications, availability, and price.",
-    features: ["Official brochure model"],
+    shortDescription: `${productType}. Model ${modelNumber} is shown in the supplied official brochure image.`,
+    description: `Model ${modelNumber}; variant/type: ${productType}. This product image is supplied in the official brochure. Contact Sunil Silai Machine for current availability, configuration guidance, and price.`,
+    features: [`Model number: ${modelNumber}`, `Variant/type: ${productType}`, "Official brochure image"],
     applications: [],
   };
 }
@@ -43,17 +52,17 @@ const jackModels: BrochureModel[] = [
 ];
 
 const zojeModels: BrochureModel[] = [
-  { name: "ZJ-311-BR Automation for Jeans", image: `${assetRoot}/zoje/zoje-automation-for-jeans-zj-311-br.jpg`, category: "garment-machinery" },
-  { name: "ZJ3800-BD Chainstitch", image: `${assetRoot}/zoje/zoje-chainstitch-zj3800-bd.jpg`, category: "garment-machinery" },
-  { name: "ZJ2842-5-BD-D3-3 Double Needle Lockstitch", image: `${assetRoot}/zoje/zoje-double-needle-lockstitch-zj2842-5-bd-d3-3.jpg`, category: "industrial-machines" },
-  { name: "ZJ9630-D3-H-3 / ZJ9640-D3-H-3 Heavy Duty", image: `${assetRoot}/zoje/zoje-heavy-duty-zj9630-d3-h-3-zj9640-d3-h-3.jpg`, category: "industrial-machines" },
-  { name: "C5000-356-D3B-02 Interlock", image: `${assetRoot}/zoje/zoje-interlock-c5000-356-d3b-02.jpg`, category: "overlock-interlock" },
-  { name: "B9500-13 Overlock", image: `${assetRoot}/zoje/zoje-overlock-b9500-13.jpg`, category: "overlock-interlock" },
-  { name: "ZJ5770A-3020HF1-C Pattern Sewing", image: `${assetRoot}/zoje/zoje-pattern-sewing-zj5770a-3020hf1-c.jpg`, category: "garment-machinery" },
-  { name: "A8000-D4-G Single Needle Lockstitch", image: `${assetRoot}/zoje/zoje-single-needle-lockstitch-a8000-d4-g.jpg`, category: "industrial-machines" },
-  { name: "ZJ5780DS-V3 Special Function", image: `${assetRoot}/zoje/zoje-special-function-zj5780ds-v3.jpg`, category: "garment-machinery" },
-  { name: "ZJ-M8-GS800-SF Templating", image: `${assetRoot}/zoje/zoje-templating-zj-m8-gs800-sf.jpg`, category: "garment-machinery" },
-  { name: "ZJ2290S-SR Zigzag", image: `${assetRoot}/zoje/zoje-zigzag-zj2290s-sr.jpg`, category: "garment-machinery" },
+  { name: "ZJ-311-BR Automation for Jeans", modelNumber: "ZJ-311-BR", productType: "Automation for Jeans", image: `${assetRoot}/zoje/zoje-automation-for-jeans-zj-311-br.jpg`, category: "garment-machinery" },
+  { name: "ZJ3800-BD Chainstitch", modelNumber: "ZJ3800-BD", productType: "Chainstitch", image: `${assetRoot}/zoje/zoje-chainstitch-zj3800-bd.jpg`, category: "garment-machinery" },
+  { name: "ZJ2842-5-BD-D3-3 Double Needle Lockstitch", modelNumber: "ZJ2842-5-BD-D3-3", productType: "Double Needle Lockstitch", image: `${assetRoot}/zoje/zoje-double-needle-lockstitch-zj2842-5-bd-d3-3.jpg`, category: "industrial-machines" },
+  { name: "ZJ9630-D3-H-3 / ZJ9640-D3-H-3 Heavy Duty", modelNumber: "ZJ9630-D3-H-3 / ZJ9640-D3-H-3", productType: "Heavy Duty", image: `${assetRoot}/zoje/zoje-heavy-duty-zj9630-d3-h-3-zj9640-d3-h-3.jpg`, category: "industrial-machines" },
+  { name: "C5000-356-D3B-02 Interlock", modelNumber: "C5000-356-D3B-02", productType: "Interlock", image: `${assetRoot}/zoje/zoje-interlock-c5000-356-d3b-02.jpg`, category: "overlock-interlock" },
+  { name: "B9500-13 Overlock", modelNumber: "B9500-13", productType: "Overlock", image: `${assetRoot}/zoje/zoje-overlock-b9500-13.jpg`, category: "overlock-interlock" },
+  { name: "ZJ5770A-3020HF1-C Pattern Sewing", modelNumber: "ZJ5770A-3020HF1-C", productType: "Pattern Sewing", image: `${assetRoot}/zoje/zoje-pattern-sewing-zj5770a-3020hf1-c.jpg`, category: "garment-machinery" },
+  { name: "A8000-D4-G Single Needle Lockstitch", modelNumber: "A8000-D4-G", productType: "Single Needle Lockstitch", image: `${assetRoot}/zoje/zoje-single-needle-lockstitch-a8000-d4-g.jpg`, category: "industrial-machines" },
+  { name: "ZJ5780DS-V3 Special Function", modelNumber: "ZJ5780DS-V3", productType: "Special Function", image: `${assetRoot}/zoje/zoje-special-function-zj5780ds-v3.jpg`, category: "garment-machinery" },
+  { name: "ZJ-M8-GS800-SF Templating", modelNumber: "ZJ-M8-GS800-SF", productType: "Templating", image: `${assetRoot}/zoje/zoje-templating-zj-m8-gs800-sf.jpg`, category: "garment-machinery" },
+  { name: "ZJ2290S-SR Zigzag", modelNumber: "ZJ2290S-SR", productType: "Zigzag", image: `${assetRoot}/zoje/zoje-zigzag-zj2290s-sr.jpg`, category: "garment-machinery" },
 ];
 
 const ushaAutomaticModels: BrochureModel[] = [

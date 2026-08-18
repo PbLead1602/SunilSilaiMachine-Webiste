@@ -8,7 +8,117 @@ import type { Product } from "@/lib/types";
  */
 const displayBrand: Record<string, string> = { Geminy: "GEMINY" };
 
+const unavailable = "Not available from verified source";
+
+function decodeEntities(value: string) {
+  const named: Record<string, string> = {
+    "&amp;": "&",
+    "&quot;": '"',
+    "&#039;": "'",
+    "&nbsp;": " ",
+  };
+
+  return value
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number.parseInt(code, 10)))
+    .replace(/&(amp|quot|#039|nbsp);/g, (entity) => named[entity] ?? entity)
+    // Some data exported from the official feed had already been decoded with
+    // the wrong character set. Correct only those known export artefacts.
+    .replaceAll("â€“", "–")
+    .replaceAll("â", "–")
+    .replaceAll("â€”", "—")
+    .replaceAll("â", "—")
+    .replaceAll("â€™", "’")
+    .replaceAll("â", "’")
+    .replaceAll("â€œ", "“")
+    .replaceAll("â", "“")
+    .replaceAll("â€", "”")
+    .replaceAll("â", "”")
+    .replace(/\u00e2\u0080\u0093/g, "–")
+    .replace(/\u00e2\u0080\u0094/g, "—")
+    .replace(/\u00e2\u0080\u0099/g, "’")
+    .replace(/\u00e2\u0080\u009c/g, "“")
+    .replace(/\u00e2\u0080\u009d/g, "”");
+}
+
+function plainText(value = "") {
+  return decodeEntities(value)
+    .replace(/\u00e2\u20ac\u201c/g, "\u2013")
+    .replace(/\u00e2\u20ac\u201d/g, "\u2014")
+    .replace(/\u00e2\u20ac\u2122/g, "\u2019")
+    .replace(/\u00e2\u20ac\u0153/g, "\u201c")
+    .replace(/\u00e2\u20ac\u009d/g, "\u201d")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\[[^\]]*]/g, " ")
+    .replace(/\b(?:Buy now|Retail Store|Also Available(?: in)? (?:Modern\s*&\s*)?Regional Retail Stores)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function shortcodeSection(value: string, title: string) {
+  const expression = new RegExp(`\\[vc_tta_section[^\\]]*title=[^\\]]*${title}[^\\]]*\\]([\\s\\S]*?)\\[\\/vc_tta_section\\]`, "i");
+  return plainText(value.match(expression)?.[1] ?? "");
+}
+
+function conciseDescription(value: string) {
+  const firstSentence = value.match(/^(.{40,260}?[.!?])(?:\s|$)/)?.[1] ?? value;
+  return firstSentence.length > 260 ? `${firstSentence.slice(0, 257).trimEnd()}…` : firstSentence;
+}
+
+function splitFeatures(value: string) {
+  const features = plainText(value)
+    .replace(/\s+\d+\)\s*/g, "|")
+    .split(/\||(?<=[.!?])\s+(?=[A-Z])|(?=\b(?:One|Seven|An Extra|Available)\b)/)
+    .map((item) => item.trim())
+    .filter((item) => item.length >= 10 && item.length <= 220);
+
+  return [...new Set(features)].slice(0, 8);
+}
+
+function titleCase(value: string) {
+  return value.toLowerCase().replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function technicalDetails(value: string) {
+  const details: Record<string, string> = {};
+  const text = plainText(value);
+  const matches = text.matchAll(/(?:^|\s)\d+\)\s*([^:]{2,60}?)\s*:\s*(.*?)(?=\s+\d+\)\s*[^:]{2,60}?\s*:|$)/g);
+
+  for (const match of matches) {
+    const label = titleCase(match[1].replace(/\s+/g, " ").trim());
+    const detail = match[2].replace(/\s+/g, " ").trim();
+    if (label && detail) details[label] = detail;
+  }
+
+  return details;
+}
+
+/**
+ * The official USHA feed stores presentation copy in WordPress shortcodes.
+ * Keep its content and provenance, but present clean, readable product data
+ * in cards, product pages, search, and comparison views.
+ */
+export function normaliseUshaProduct(product: Product): Product {
+  if (product.brand !== "USHA") return product;
+
+  const sourceText = product.description || product.shortDescription;
+  const description = shortcodeSection(sourceText, "Description") || plainText(sourceText);
+  const features = splitFeatures(shortcodeSection(sourceText, "Features"));
+  const fromTechnicalSection = technicalDetails(shortcodeSection(sourceText, "Technical Specifications"));
+  const specifications = { ...product.specifications, ...fromTechnicalSection };
+
+  return {
+    ...product,
+    shortDescription: conciseDescription(description || product.name),
+    description: description || `USHA ${product.modelNumber ?? product.name} is listed by the official manufacturer source. Contact Sunil Silai Machine for availability and product guidance.`,
+    features: features.length ? features : product.features.filter((feature) => !feature.includes("[vc_")).map(plainText),
+    specifications: Object.fromEntries(
+      Object.entries(specifications).filter(([, value]) => value && value !== unavailable),
+    ),
+  };
+}
+
 export const importedProducts = (catalogue as { products: Product[] }).products.map((product) => ({
   ...product,
   brand: displayBrand[product.brand] ?? product.brand,
-}));
+})).map(normaliseUshaProduct);

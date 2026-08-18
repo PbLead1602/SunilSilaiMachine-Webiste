@@ -1,0 +1,180 @@
+ ⨯ Failed to generate static paths for /[locale]/shop:
+[Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\shop\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\shop\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/mr/shop'
+}
+ ⨯ Failed to generate static paths for /[locale]:
+[Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\shop\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/mr/shop'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\shop\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/mr/shop'
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\webpack-runtime.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app\[locale]\page.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\require.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\load-components.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\build\utils.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\projects\sunil silai machine website\Sunil Silai Machine\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\app-paths-manifest.json',
+  page: '/mr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\projects\sunil silai machine website\Sunil Silai Machine\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\projects\\sunil silai machine website\\Sunil Silai Machine\\.next\\routes-manifest.json'
+}

@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-18T04:48:39.931Z",
+  "logos": [
+    {
+      "brand": "ZOJE",
+      "localPath": "/images/brand-logos/zoje.webp",
+      "sourceUrl": "https://www.zoje.com/static/images/logor.svg",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "JACK",
+      "localPath": "/images/brand-logos/jack.webp",
+      "sourceUrl": "Local source: /images/brand-logos/source/jack-user-supplied.png",
+      "sourceType": "user-supplied logo artwork",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "USHA",
+      "localPath": "/images/brand-logos/usha.webp",
+      "sourceUrl": "https://www.ushasew.com/wp-content/uploads/2018/08/logo.png",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "NIRMA",
+      "localPath": "/images/brand-logos/nirma.webp",
+      "sourceUrl": "Local source: /images/brand-logos/source/nirma-user-supplied.png",
+      "sourceType": "user-supplied logo artwork",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "MODI",
+      "localPath": "/images/brand-logos/modi.webp",
+      "sourceUrl": "Local source: /images/brand-logos/source/modi-user-supplied.png",
+      "sourceType": "user-supplied logo artwork",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "GEMINY",
+      "localPath": "/images/brand-logos/geminy.webp",
+      "sourceUrl": "https://www.geminy.in/wp-content/uploads/2022/08/geminy-1.png",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "QMach",
+      "localPath": "/images/brand-logos/qmach.webp",
+      "sourceUrl": "https://static.wixstatic.com/media/49c2a6_7c696230d4a14108b9f3f4496642efaa~mv2.png",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "MESSER",
+      "localPath": "/images/brand-logos/messer.webp",
+      "sourceUrl": "https://in.messer-cutting.com/typo3conf/ext/messer_cutting_systems_global_web_styles/Resources/Public/Images/MCS_Logo_rgb.svg",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "ANSWER",
+      "localPath": "/images/brand-logos/answer.webp",
+      "sourceUrl": "https://static.wixstatic.com/media/49c2a6_760a6609927243ec9459e68d26733e1b~mv2.png",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    },
+    {
+      "brand": "SINGER",
+      "localPath": "/images/brand-logos/singer.webp",
+      "sourceUrl": "https://shop.singerindia.com/wp-content/uploads/sites/2/2025/09/Untitled-1.png",
+      "sourceType": "official website",
+      "processing": "Trimmed and rendered as a 1600px-wide transparent WebP without altering the logo artwork.",
+      "dimensions": "1600x640",
+      "verificationStatus": "source-verified"
+    }
+  ]
+}

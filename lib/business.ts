@@ -1,6 +1,6 @@
 import type { Category, Product } from "@/lib/types";
 import { brochureProducts } from "@/lib/brochure-products";
-import { importedProducts } from "@/lib/imported-products";
+import { importedProducts, normaliseUshaProduct } from "@/lib/imported-products";
 
 export const business = {
   name: "Sunil Silai Machine",
@@ -19,19 +19,20 @@ export const business = {
   mapEmbedUrl: "https://www.google.com/maps?q=Sunil%20Silai%20Machine%2C%20Shop%20No.%2018%2F19%2C%20Shastri%20Stadium%2C%20Opposite%20Old%20Bus%20Stand%2C%20Tower%20Road%2C%20Fateh%20Chowk%2C%20Akola%20444001&output=embed",
 } as const;
 
-export const brands = [
-  "ZOJE",
-  "JACK",
-  "USHA",
-  "NIRMA",
-  "MODI",
-  "GEMINY",
-  "QMach",
-  "SILVERBIRD",
-  "MESSER",
-  "ANSWER",
-  "SINGER",
-];
+export const brandDirectory = [
+  { name: "ZOJE", logo: "/images/brand-logos/zoje.webp" },
+  { name: "JACK", logo: "/images/brand-logos/jack.webp" },
+  { name: "USHA", logo: "/images/brand-logos/usha.webp" },
+  { name: "NIRMA", logo: "/images/brand-logos/nirma.webp" },
+  { name: "MODI", logo: "/images/brand-logos/modi.webp" },
+  { name: "GEMINY", logo: "/images/brand-logos/geminy.webp" },
+  { name: "QMach", logo: "/images/brand-logos/qmach.webp" },
+  { name: "MESSER", logo: "/images/brand-logos/messer.webp" },
+  { name: "ANSWER", logo: "/images/brand-logos/answer.webp" },
+  { name: "SINGER", logo: "/images/brand-logos/singer.webp" },
+] as const;
+
+export const brands = brandDirectory.map(({ name }) => name);
 
 /** Brand catalogue routes maintained for this imported V1 range. */
 export const catalogueBrandPages = ["ZOJE", "JACK", "USHA", "GEMINY", "QMach", "MODI", "NIRMA", "ANSWER", "SINGER"] as const;
@@ -289,7 +290,7 @@ const baseProducts: Product[] = [
 ];
 
 function productKey(product: Product) {
-  const value = `${product.modelNumber ?? ""} ${product.name}`
+  const value = (product.modelNumber?.trim() || product.name)
     .toLowerCase()
     .replace(new RegExp(product.brand.toLowerCase(), "g"), "")
     .replace(/usha\s*janome|sewing\s*machine|machine|series|model|lockstitch|direct\s*drive|high\s*speed|single\s*needle|industrial|official/g, "")
@@ -299,6 +300,44 @@ function productKey(product: Product) {
 
 function presentSpecification(value: string | undefined) {
   return Boolean(value && value !== "Not available from verified source");
+}
+
+function copyScore(value: string | undefined) {
+  if (!value) return 0;
+  const normalized = value.trim();
+  if (!normalized) return 0;
+  const generic = /^(official brochure model|verified .+ model|this model and image are supplied)/i.test(normalized);
+  return Math.min(normalized.length, 320) - (generic ? 500 : 0);
+}
+
+function moreUsefulCopy(existing: string, incoming: string) {
+  return copyScore(incoming) > copyScore(existing) ? incoming : existing;
+}
+
+function isGenericFeature(value: string) {
+  return /^(official brochure model|verified model listing)$/i.test(value.trim());
+}
+
+function zojeCardRank(product: Product) {
+  if (product.brand !== "ZOJE") return 0;
+
+  const hasModelAndVariant = Boolean(product.modelNumber && (product.variant || product.productType));
+  const hasTechnicalDetail = Object.values(product.specifications ?? {}).some((value) => presentSpecification(value));
+  const hasSpecificFeature = product.features.some((feature) => !isGenericFeature(feature));
+  const hasUsefulDescription = Boolean(product.description && !/^(official zoje|this model and image are supplied|verified zoje)/i.test(product.description.trim()));
+  const hasCompleteDetails = hasModelAndVariant && (hasTechnicalDetail || hasSpecificFeature || hasUsefulDescription);
+
+  if (product.image && hasCompleteDetails) return 0;
+  if (product.image) return 1;
+  return 2;
+}
+
+function catalogueOrder(left: Product, right: Product) {
+  if (left.brand === "ZOJE" && right.brand === "ZOJE") {
+    const rank = zojeCardRank(left) - zojeCardRank(right);
+    if (rank) return rank;
+  }
+  return left.brand.localeCompare(right.brand) || left.name.localeCompare(right.name);
 }
 
 /**
@@ -311,6 +350,8 @@ function enrichProduct(existing: Product, product: Product) {
     for (const [label, value] of Object.entries(existing.specifications ?? {})) {
       if (presentSpecification(value) || !presentSpecification(mergedSpecifications[label])) mergedSpecifications[label] = value;
     }
+    const combinedFeatures = [...new Set([...existing.features, ...product.features])];
+    const specificFeatures = combinedFeatures.filter((feature) => !isGenericFeature(feature));
     return {
       ...existing,
       modelNumber: existing.modelNumber ?? product.modelNumber,
@@ -320,10 +361,12 @@ function enrichProduct(existing: Product, product: Product) {
       productType: existing.productType ?? product.productType,
       image: existing.image || product.image,
       gallery: existing.gallery.length ? existing.gallery : product.gallery,
+      shortDescription: moreUsefulCopy(existing.shortDescription, product.shortDescription),
+      description: moreUsefulCopy(existing.description, product.description),
       specifications: mergedSpecifications,
       source: product.source ?? existing.source,
       importNotes: product.importNotes ?? existing.importNotes,
-      features: [...new Set([...existing.features, ...product.features])],
+      features: specificFeatures.length ? specificFeatures : combinedFeatures,
       applications: [...new Set([...existing.applications, ...product.applications])],
     };
 }
@@ -344,7 +387,9 @@ function mergeCatalogueProducts(current: Product[], incoming: Product[]) {
 }
 
 export const products: Product[] = mergeCatalogueProducts([...baseProducts, ...brochureProducts], importedProducts)
-  .filter((product) => !excludedShopBrands.has(product.brand.toUpperCase()));
+  .filter((product) => !excludedShopBrands.has(product.brand.toUpperCase()))
+  .map(normaliseUshaProduct)
+  .sort(catalogueOrder);
 
 export const spareParts = [
   "Needle sets, bobbins, and bobbin cases",

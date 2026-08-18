@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-08-18T05:15:30.099Z",
+  "sourcePackage": "D:\\projects\\sunil silai machine website\\images\\product images\\usha",
+  "strategy": "Retained the existing clean, model-matched product images; upscaled with Lanczos3, applied a restrained detail pass, converted to sRGB, and encoded as JPEG at quality 95 without generating or altering machine details.",
+  "imageCount": 72,
+  "images": [
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_6700-P.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Aayush-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Anand-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Anand-Composite-with-PBC.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Anand-DLX-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Bandhan-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Bandhan-Composite-with-PBC.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Bandhan-DLX-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Bandhan-DLX-Composite-with-PBC.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Butterfly-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Champion-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Link-DLX-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_MB-7E-with-Artistic-Digitizer-Full-Version.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_MC-550-E-with-Artistic-Digitizer-Jr.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_MC-8200-QCP-SE.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_MC-9850-with-Artistic-Digitizer-Full-Version.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Memory-Craft-15000-with-Artistic-Digitizer-Full-Version.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Roopa-Family-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Skyline-S9-with-Artistic-Digitizer-Full-Version.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Streamlined-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Cherry-Brown-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Cherry-Red-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Golden-Silver-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Metallic-Brown-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-DLX-Pacific-Blue-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-Super-DLX-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Tailor-Supreme-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Umang-Composite-Hand-Operated.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/domestic/USHA_Domestic_Umang-Composite-with-PBC.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Allure-DLX-Automatic-Zig-Zag.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Allure.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Craft-Master-Composite-Foot-With-Cast-Iron-Stand.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Craft-Master-DLX-Composite-Foot-With-Cast-Iron-Stand.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_DESIGN-CRAFT.jpg",
+      "sourceDimensions": "601x415",
+      "outputDimensions": "1600x1105",
+      "sourceLongSide": 601
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Design-Master-Top.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Dream-Maker-120.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Dream-Stitch.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Excella-DLX.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-0.65-cm-Seam-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-3-Way-Cording-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Beading-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Binder-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Darning-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Gathering-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Pin-Tucking-foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Piping-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Ribbon-Sequin-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Foot-Accessories-Ruffler-Foot.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Leather-Stitch-Top.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Lockstitch-New-Top.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Magic-Master-Top.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Marvela.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Memory-Craft-450E-with-Digitizer-Jr-Computerized-Embroidery.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_My-Fab-Barbie.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Mystique.jpg",
+      "sourceDimensions": "2400x1517",
+      "outputDimensions": "1600x1011",
+      "sourceLongSide": 2400
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Quick-Stitch-Top-with-Usha-Hook.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_QUILT-MAGIC.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Rotary-Stitch-Master-Pro-Top-With-Usha-Hook.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Rotary-Stitch-Master-Top-with-Usha-Hook.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_S2-Direct-Drive-Single-Needle-Lockstitch-High-Speed.jpg",
+      "sourceDimensions": "600x600",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 600
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_S2B-Direct-Drive-Single-Needle-Lockstitch-High-Speed-Machine-With-Large-Hook.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_S2E1-Direct-Drive-Single-Needle-Lockstitch-High-Speed-Machine-With-Trimmer.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_SEW-MAGIC.jpg",
+      "sourceDimensions": "2400x2053",
+      "outputDimensions": "1600x1369",
+      "sourceLongSide": 2400
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_STELLA.jpg",
+      "sourceDimensions": "2400x1602",
+      "outputDimensions": "1600x1068",
+      "sourceLongSide": 2400
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Stitch-Magic.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Style-Stitch-Automatic-Zig-Zag.jpg",
+      "sourceDimensions": "1951x2400",
+      "outputDimensions": "1301x1600",
+      "sourceLongSide": 2400
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Wonder-Stitch-Plus.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/lockstitch/USHA_Lockstitch_Wonder-Stitch.jpg",
+      "sourceDimensions": "1000x1000",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 1000
+    },
+    {
+      "path": "/images/product images/usha/motor/USHA_Motor_Stitch-Queen-With-Motor.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    },
+    {
+      "path": "/images/product images/usha/overlock/USHA_Overlock_747E-Direct-Drive-2-Needle-4-Thread-Overlock.jpg",
+      "sourceDimensions": "300x300",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 300
+    },
+    {
+      "path": "/images/product images/usha/overlock/USHA_Overlock_757-Direct-Drive-2-Needle-5-Thread-Overlock.jpg",
+      "sourceDimensions": "900x900",
+      "outputDimensions": "1600x1600",
+      "sourceLongSide": 900
+    }
+  ]
+}
