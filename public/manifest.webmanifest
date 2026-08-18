@@ -1,0 +1,17 @@
+{
+  "name": "Sunil Silai Machine",
+  "short_name": "Sunil Silai",
+  "description": "Domestic and industrial sewing machines, spare parts, accessories, repairs, and purchase guidance in Akola.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#2F241F",
+  "icons": [
+    {
+      "src": "/images/Logo/sunil%20logo.jpeg",
+      "sizes": "1254x1254",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

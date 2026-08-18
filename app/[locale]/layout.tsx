@@ -9,5 +9,5 @@ export function generateStaticParams() { return locales.map((locale) => ({ local
 export default async function LocaleLayout({ children, params }: Readonly<{ children: React.ReactNode; params: Promise<{ locale: string }> }>) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
-  return <body className={locale === "en" ? "" : "font-devanagari"}><LocalBusinessSchema /><SiteHeader locale={locale} /><main>{children}</main><SiteFooter locale={locale} /></body>;
+  return <div className={locale === "en" ? "" : "font-devanagari"}><LocalBusinessSchema /><SiteHeader locale={locale} /><main>{children}</main><SiteFooter locale={locale} /></div>;
 }

@@ -5,3 +5,6 @@ node_modules
 coverage
 playwright-report
 test-results
+.open-next
+.wrangler
+cloudflare-env.d.ts
