@@ -34,7 +34,7 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
 
   return (
     <article className="group relative min-w-0 overflow-hidden rounded-3xl border border-line bg-white shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-soft">
-      <div className="relative aspect-[1.02] overflow-hidden bg-[#f4f0eb]">
+      <div className="relative aspect-[1.25] overflow-hidden bg-[#f4f0eb] sm:aspect-[1.02]">
         {product.image ? <Image
           src={product.image}
           alt={product.name}
@@ -55,17 +55,17 @@ export function ProductCard({ product, locale }: { product: Product; locale: Loc
           </button>
         </div>
       </div>
-      <div className="min-w-0 p-5 sm:p-6">
+      <div className="min-w-0 p-4 sm:p-6">
         <p className="text-xs font-bold uppercase leading-5 tracking-[0.08em] text-clay sm:text-sm sm:tracking-[0.1em]">{product.brand} · {categoryName(locale, product.category, product.category.replaceAll("-", " "))}</p>
-        <h3 className="mt-3 min-h-14 font-display text-lg font-semibold leading-7 text-ink">{product.name}</h3>
+        <h3 className="mt-3 font-display text-lg font-semibold leading-7 text-ink sm:min-h-14">{product.name}</h3>
         {product.modelNumber && <p className="mt-1 text-xs font-semibold uppercase tracking-[0.08em] text-stone-500">{labels.model}: {product.modelNumber}</p>}
         {!product.image && variant && <p className="mt-1 text-xs font-semibold uppercase tracking-[0.08em] text-stone-500">{variantLabel}: {variant}</p>}
-        <p className="mt-3 line-clamp-2 min-h-14 text-sm leading-6 text-stone-500">{product.shortDescription}</p>
-        <div className="mt-5 flex flex-col items-start justify-between gap-2 border-t border-line pt-5 sm:flex-row sm:gap-3">
+        <p className="mt-3 line-clamp-2 text-sm leading-6 text-stone-500 sm:min-h-14">{product.shortDescription}</p>
+        <div className="mt-4 flex flex-col items-start justify-between gap-2 border-t border-line pt-4 sm:mt-5 sm:pt-5 sm:flex-row sm:gap-3">
           <span className="flex items-center gap-2 text-xs font-semibold text-stone-600"><ShieldCheck className="size-4 shrink-0 text-clay" /> {copy.emi}</span>
           <span className="text-sm font-bold text-ink">{copy.enquirePrice}</span>
         </div>
-        <div className="mt-5 grid grid-cols-1 gap-3 md:grid-cols-2">
+        <div className="mt-4 grid grid-cols-1 gap-2.5 md:mt-5 md:grid-cols-2 md:gap-3">
           <Link href={`/${locale}/product/${product.slug}`} className="button-secondary px-4 text-xs"><Eye className="size-4" />{copy.details}</Link>
           <a href={whatsappUrl(`Hello Sunil Silai Machine, I am interested in ${product.brand} ${product.modelNumber ?? product.name}. Please share price, availability, specifications, EMI options and delivery details.`)} className="button-primary px-4 text-xs">{copy.enquiry}</a>
         </div>

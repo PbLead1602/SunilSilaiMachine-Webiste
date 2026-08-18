@@ -39,18 +39,18 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   return (
     <header className="sticky top-0 z-40 max-w-full border-b border-line bg-canvas/95 backdrop-blur">
       <div className="bg-ink text-white">
-        <div className="shell flex min-h-10 flex-col justify-center gap-1 py-1.5 text-xs font-semibold sm:min-h-12 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
-          <span className="min-w-0 leading-5">{copy.utility}</span>
-          <a className="w-fit max-w-full leading-5 hover:text-gold" href={whatsappUrl("Hello Sunil Silai Machine, I would like some assistance.")}>WhatsApp: {business.whatsapp}</a>
+        <div className="shell flex min-h-9 items-center justify-between gap-2 py-1 text-[9px] font-semibold leading-4 sm:min-h-12 sm:gap-3 sm:py-1.5 sm:text-xs sm:leading-5">
+          <span className="block min-w-0 flex-1 truncate whitespace-nowrap" title={copy.utility}>{copy.utility}</span>
+          <a className="shrink-0 whitespace-nowrap hover:text-gold" href={whatsappUrl("Hello Sunil Silai Machine, I would like some assistance.")}>WhatsApp: {business.whatsapp}</a>
         </div>
       </div>
 
-      <div className="shell header-main flex min-h-[76px] items-center py-3 sm:min-h-24 sm:py-4 lg:min-h-[108px] 2xl:min-h-[132px] 2xl:py-4">
+      <div className="shell header-main flex min-h-[68px] items-center py-2.5 sm:min-h-24 sm:py-4 lg:min-h-[108px] 2xl:min-h-[132px] 2xl:py-4">
         <Link href={`/${locale}`} className="group flex min-w-0 flex-1 items-center gap-2 sm:gap-3" aria-label="Sunil Silai Machine home">
-          <span className="flex size-14 shrink-0 items-center justify-center rounded-xl border border-[#ddc59f] bg-white p-0.5 shadow-card transition duration-300 group-hover:-translate-y-0.5 group-hover:border-gold sm:size-[72px] sm:rounded-2xl lg:size-[84px] 2xl:size-[102px] 2xl:p-1">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-xl border border-[#ddc59f] bg-white p-0.5 shadow-card transition duration-300 group-hover:-translate-y-0.5 group-hover:border-gold sm:size-[72px] sm:rounded-2xl lg:size-[84px] 2xl:size-[102px] 2xl:p-1">
             <Image src={business.logo} alt="Sunil Silai Machine logo" width={113} height={113} className="size-full rounded-[10px] object-contain 2xl:rounded-xl" priority />
           </span>
-          <span className="min-w-0 font-display text-[clamp(16px,4.8vw,21px)] font-semibold leading-[1.05] tracking-tight text-ink sm:whitespace-nowrap sm:text-[clamp(23px,3.4vw,30px)] lg:text-[clamp(27px,2.8vw,32px)] 2xl:flex 2xl:h-[88px] 2xl:items-center 2xl:text-[clamp(30px,2vw,34px)]">Sunil Silai Machine</span>
+          <span className="min-w-0 font-display text-[clamp(15px,4.3vw,18px)] font-semibold leading-[1.08] tracking-tight text-ink sm:whitespace-nowrap sm:text-[clamp(23px,3.4vw,30px)] lg:text-[clamp(27px,2.8vw,32px)] 2xl:flex 2xl:h-[88px] 2xl:items-center 2xl:text-[clamp(30px,2vw,34px)]">Sunil Silai Machine</span>
         </Link>
 
         <form onSubmit={submitSearch} className="hidden min-w-0 w-full 2xl:block">
@@ -68,20 +68,20 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         </div>
       </div>
 
-      <div className="shell grid gap-2.5 border-t border-line py-3 2xl:hidden">
-        <form onSubmit={submitSearch} className="flex min-h-12 min-w-0 overflow-hidden rounded-full border border-line bg-white focus-within:ring-2 focus-within:ring-gold">
-          <Search className="ml-4 mt-3.5 size-5 shrink-0 text-stone-400" />
-          <input type="search" className="min-w-0 flex-1 bg-transparent px-3 py-3 text-sm outline-none" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.searchPlaceholder} aria-label="Search catalogue" />
-          <button className="shrink-0 px-4 text-sm font-semibold text-clay" type="submit">{copy.search}</button>
+      <div className="shell grid gap-2 border-t border-line py-2.5 2xl:hidden">
+        <form onSubmit={submitSearch} className="flex min-h-11 min-w-0 overflow-hidden rounded-full border border-line bg-white focus-within:ring-2 focus-within:ring-gold">
+          <Search className="ml-3 mt-3 size-4 shrink-0 text-stone-400 sm:ml-4 sm:mt-3.5 sm:size-5" />
+          <input type="search" className="min-w-0 flex-1 bg-transparent px-2 py-2 text-[13px] outline-none sm:px-3 sm:py-3 sm:text-sm" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.searchPlaceholder} aria-label="Search catalogue" />
+          <button className="shrink-0 px-3 text-[13px] font-semibold text-clay sm:px-4 sm:text-sm" type="submit">{copy.search}</button>
         </form>
-        <div className="flex min-w-0 flex-wrap items-stretch gap-2">
-          <label className="flex min-h-12 min-w-28 flex-1 items-center gap-2 rounded-xl border border-line bg-white px-3 text-sm font-semibold text-ink">
-            <Languages className="size-[14px] shrink-0 text-clay" strokeWidth={2.25} />
+        <div className="flex min-w-0 items-stretch gap-1 sm:gap-2">
+          <label className="flex min-h-11 min-w-0 flex-1 items-center gap-1.5 rounded-xl border border-line bg-white px-2 text-xs font-semibold text-ink sm:min-h-12 sm:min-w-28 sm:gap-2 sm:px-3 sm:text-sm">
+            <Languages className="size-4 shrink-0 text-clay sm:size-[14px]" strokeWidth={2.25} />
             <select aria-label="Language" value={locale} onChange={(event) => switchLocale(event.target.value as Locale)} className="min-w-0 flex-1 bg-transparent outline-none">{languageOptions}</select>
           </label>
-          <Link href={`/${locale}/compare`} aria-label={copy.saved} title={copy.saved} className="inline-flex size-12 shrink-0 items-center justify-center rounded-xl border border-line bg-white hover:bg-[#fffdfa]"><Heart className="size-[18px]" strokeWidth={2.25} /></Link>
-          <a aria-label="Call Sunil Silai Machine" title={copy.call} href={`tel:${business.phone.replace(/\s/g, "")}`} className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-xl bg-ink px-3 text-sm font-semibold text-white shadow-card hover:bg-[#4a3830]"><Phone className="size-5 shrink-0" /><span className="hidden sm:inline">{copy.call}</span></a>
-          <button onClick={() => setOpen(!open)} className="inline-flex size-12 shrink-0 items-center justify-center rounded-xl border border-line bg-white" aria-label="Toggle menu" aria-controls="mobile-navigation" aria-expanded={open}>{open ? <X className="size-5" /> : <Menu className="size-5" />}</button>
+          <Link href={`/${locale}/compare`} aria-label={copy.saved} title={copy.saved} className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl border border-line bg-white hover:bg-[#fffdfa] sm:size-12"><Heart className="size-[17px] sm:size-[18px]" strokeWidth={2.25} /></Link>
+          <a aria-label="Call Sunil Silai Machine" title={copy.call} href={`tel:${business.phone.replace(/\s/g, "")}`} className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-xl bg-ink px-2.5 text-[13px] font-semibold text-white shadow-card hover:bg-[#4a3830] sm:min-h-12 sm:px-3 sm:text-sm"><Phone className="size-[18px] shrink-0 sm:size-5" /><span className="hidden sm:inline">{copy.call}</span></a>
+          <button onClick={() => setOpen(!open)} className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl border border-line bg-white sm:size-12" aria-label="Toggle menu" aria-controls="mobile-navigation" aria-expanded={open}>{open ? <X className="size-[18px] sm:size-5" /> : <Menu className="size-[18px] sm:size-5" />}</button>
         </div>
       </div>
 
@@ -89,7 +89,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         <div className="shell flex h-16 items-center gap-5"><div className="flex min-w-0 items-center gap-5">{nav.map(([label, href]) => <Link className="whitespace-nowrap text-xs font-semibold text-stone-600 transition hover:text-clay" href={`/${locale}${href}`} key={label}>{label}</Link>)}</div><Link className="ml-auto whitespace-nowrap text-xs font-semibold text-clay" href={`/${locale}/compare`}>{copy.compare}</Link></div>
       </nav>
 
-      {open && <div id="mobile-navigation" className="border-t border-line bg-canvas 2xl:hidden"><nav className="shell grid gap-2 py-5">{nav.map(([label, href]) => <Link onClick={() => setOpen(false)} className="rounded-xl px-4 py-3.5 text-sm font-semibold hover:bg-white" href={`/${locale}${href}`} key={label}>{label}</Link>)}</nav></div>}
+      {open && <div id="mobile-navigation" className="border-t border-line bg-canvas 2xl:hidden"><nav className="shell grid gap-1.5 py-3 sm:gap-2 sm:py-5">{nav.map(([label, href]) => <Link onClick={() => setOpen(false)} className="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-white sm:py-3.5" href={`/${locale}${href}`} key={label}>{label}</Link>)}</nav></div>}
     </header>
   );
 }

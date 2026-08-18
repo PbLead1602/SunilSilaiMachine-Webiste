@@ -12,7 +12,14 @@
 
 img, picture, video, canvas, svg { max-width: 100%; }
 
-html { max-width: 100%; overflow-x: clip; scroll-behavior: smooth; }
+html {
+  max-width: 100%;
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  /* Keep Android browsers from inflating text independently of the responsive scale. */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
 body {
   margin: 0;
@@ -23,9 +30,13 @@ body {
   color: #2f241f;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 main, header, footer, section, article, aside, form { min-width: 0; }
+
+button, input, select, textarea { font: inherit; }
 
 h1, h2, h3, p, li, dd, dt, label, summary { overflow-wrap: break-word; }
 
@@ -69,6 +80,21 @@ h1, h2, h3, p, li, dd, dt, label, summary { overflow-wrap: break-word; }
   .button-primary { @apply inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-[#4a3830] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2; }
   .button-secondary { @apply inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-gold bg-white px-6 py-3 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:border-clay hover:bg-[#fffdfa] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2; }
   .surface { @apply rounded-3xl border border-line bg-white shadow-card; }
+}
+
+/* Phone-first density: preserve comfortable 44px touch targets without making
+   the header, CTAs, and cards dominate the first viewport. Tablet and desktop
+   values continue to come from their existing Tailwind breakpoints. */
+@media (max-width: 639px) {
+  .button-primary,
+  .button-secondary {
+    min-height: 2.75rem;
+    padding-inline: 1rem;
+    padding-block: 0.625rem;
+    font-size: 0.8125rem;
+  }
+
+  h1, h2, h3 { text-wrap: balance; }
 }
 
 .font-devanagari .eyebrow {

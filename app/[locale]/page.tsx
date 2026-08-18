@@ -28,23 +28,23 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return <>
     <section className="shell">
-      <div className="relative min-h-[560px] max-w-full overflow-hidden bg-ink px-5 py-10 text-white shadow-soft sm:min-h-[600px] sm:px-12 sm:py-12 lg:min-h-[610px] lg:px-16 lg:py-20">
+      <div className="relative min-h-[480px] max-w-full overflow-hidden bg-ink px-5 py-8 text-white shadow-soft sm:min-h-[600px] sm:px-12 sm:py-12 lg:min-h-[610px] lg:px-16 lg:py-20">
         <HeroCarousel />
         <div className="absolute inset-0 bg-gradient-to-r from-[#2f241f]/95 via-[#2f241f]/72 to-[#2f241f]/10" />
         <div className="relative z-10 flex min-w-0 max-w-xl flex-col">
           <p className="inline-flex w-fit max-w-full items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-medium leading-5 backdrop-blur"><Sparkles className="size-3.5 shrink-0 text-gold" />{copy.heroKicker}</p>
-          <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.12] tracking-tight sm:text-5xl lg:text-6xl">{copy.heroTitle}</h1>
-          <p className="mt-5 max-w-lg text-base leading-7 text-stone-200 sm:text-lg">{copy.heroText}</p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <h1 className="mt-5 font-display text-[clamp(30px,8.5vw,36px)] font-semibold leading-[1.12] tracking-tight sm:mt-6 sm:text-5xl lg:text-6xl">{copy.heroTitle}</h1>
+          <p className="mt-4 max-w-lg text-[15px] leading-6 text-stone-200 sm:mt-5 sm:text-lg sm:leading-7">{copy.heroText}</p>
+          <div className="mt-7 flex flex-col gap-2.5 sm:mt-8 sm:gap-3 sm:flex-row sm:flex-wrap">
             <Link href={`/${locale}/shop`} className="button-primary w-full bg-white text-ink hover:bg-[#f5eadb] sm:w-auto">{copy.explore}<ArrowRight className="size-4 shrink-0" /></Link>
             <a href={whatsappUrl("Hello Sunil Silai Machine, I would like help choosing a machine.")} className="button-secondary w-full border-white/40 bg-white/10 text-white hover:bg-white hover:text-ink sm:w-auto"><MessageCircle className="size-4 shrink-0" />{copy.contact}</a>
           </div>
-          <div className="mt-10 grid max-w-md grid-cols-2 gap-3 sm:mt-14 sm:grid-cols-3"><span className="rounded-2xl bg-white/10 px-3 py-3 text-xs leading-5 backdrop-blur sm:px-4">{labels.domestic} & {labels.industrial}</span><span className="rounded-2xl bg-white/10 px-3 py-3 text-xs leading-5 backdrop-blur sm:px-4">{labels.emi}</span><span className="hidden rounded-2xl bg-white/10 px-4 py-3 text-xs leading-5 backdrop-blur sm:block">{labels.repairSupport}</span></div>
+          <div className="mt-8 grid max-w-md grid-cols-2 gap-2.5 sm:mt-14 sm:grid-cols-3 sm:gap-3"><span className="rounded-2xl bg-white/10 px-3 py-2.5 text-xs leading-5 backdrop-blur sm:px-4 sm:py-3">{labels.domestic} & {labels.industrial}</span><span className="rounded-2xl bg-white/10 px-3 py-2.5 text-xs leading-5 backdrop-blur sm:px-4 sm:py-3">{labels.emi}</span><span className="col-span-2 rounded-2xl bg-white/10 px-3 py-2.5 text-xs leading-5 backdrop-blur sm:col-auto sm:px-4 sm:py-3">{labels.repairSupport}</span></div>
         </div>
       </div>
     </section>
 
-    <section className="shell px-5 py-10 sm:px-8 sm:py-16 lg:px-12"><div className="grid min-w-0 gap-4 md:grid-cols-2 xl:grid-cols-4">{benefits.map(({ icon: Icon, title, text: benefitText }) => <div className="surface min-w-0 p-5 sm:p-6" key={title}><span className="inline-flex rounded-2xl bg-[#f6efe5] p-3 text-clay"><Icon className="size-5" /></span><h2 className="mt-5 font-display text-lg font-semibold">{title}</h2><p className="mt-2 text-sm leading-6 text-stone-600">{benefitText}</p></div>)}</div></section>
+    <section className="shell px-5 py-10 sm:px-8 sm:py-16 lg:px-12"><div className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">{benefits.map(({ icon: Icon, title, text: benefitText }) => <div className="surface min-w-0 p-4 sm:p-6" key={title}><span className="inline-flex rounded-2xl bg-[#f6efe5] p-2.5 text-clay sm:p-3"><Icon className="size-4 sm:size-5" /></span><h2 className="mt-4 font-display text-[15px] font-semibold leading-5 sm:mt-5 sm:text-lg sm:leading-normal">{title}</h2><p className="mt-2 text-[13px] leading-5 text-stone-600 sm:text-sm sm:leading-6">{benefitText}</p></div>)}</div></section>
 
     <section className="shell px-5 py-10 sm:px-8 sm:py-16 lg:px-12"><SectionHeading eyebrow={labels.categories} title={copy.categories} text={copy.categoriesText} href={`/${locale}/shop`} linkText={copy.allProducts} /><div className="-mx-5 flex max-w-none snap-x gap-4 overflow-x-auto px-5 pb-3 sm:mx-0 sm:grid sm:grid-cols-2 sm:px-0 lg:grid-cols-3">{categories.map((category) => <Link href={`/${locale}/shop?category=${category.slug}`} key={category.slug} className="group relative min-w-[250px] max-w-[calc(100vw-2.5rem)] snap-start overflow-hidden rounded-3xl bg-ink sm:min-w-0 sm:max-w-none"><div className="relative aspect-[1.4]"><Image src={category.image} alt={categoryName(locale, category.slug, category.name)} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 45vw, 78vw" className="object-cover transition duration-500 group-hover:scale-105" /><div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/5 to-transparent" /><div className="absolute inset-x-4 bottom-4 flex min-w-0 items-end justify-between gap-3 text-white sm:inset-x-5 sm:bottom-5"><div className="min-w-0"><h3 className="font-display text-xl font-semibold">{categoryName(locale, category.slug, category.name)}</h3><p className="mt-1 text-xs text-white/80">{labels.explore}</p></div><span className="shrink-0 rounded-full bg-white/15 p-2.5 backdrop-blur"><ChevronRight className="size-4" /></span></div></div></Link>)}</div></section>
 
