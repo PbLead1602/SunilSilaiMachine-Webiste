@@ -22,4 +22,20 @@ test("mobile header keeps every essential action visible without horizontal over
   await expect(header.locator('a[aria-label="Call Sunil Silai Machine"]:visible')).toBeVisible();
   await expect(header.locator('button[aria-label="Toggle menu"]:visible')).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
+  expect((await header.boundingBox())?.height).toBeLessThanOrEqual(140);
+});
+
+test("tablet header stays compact without hiding actions", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "chromium", "Checked in the desktop browser project at tablet width.");
+  await page.setViewportSize({ width: 768, height: 1024 });
+  await page.goto("/en", { waitUntil: "domcontentloaded" });
+
+  const header = page.locator("header");
+  await expect(header.locator('input[aria-label="Search catalogue"]:visible')).toBeVisible();
+  await expect(header.locator('select[aria-label="Language"]:visible')).toBeVisible();
+  await expect(header.locator('a[aria-label="Saved machines"]:visible')).toBeVisible();
+  await expect(header.locator('a[aria-label="Call Sunil Silai Machine"]:visible')).toBeVisible();
+  await expect(header.locator('button[aria-label="Toggle menu"]:visible')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
+  expect((await header.boundingBox())?.height).toBeLessThanOrEqual(200);
 });

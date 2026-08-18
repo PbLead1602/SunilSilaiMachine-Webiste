@@ -1,97 +1,10 @@
 
-> sunil-silai-machine@0.1.0 dev
-> next dev --port 3002
+> sunil-silai-machine@0.1.0 start
+> next start
 
-   ▲ Next.js 15.5.9
-   - Local:        http://localhost:3002
-   - Network:      http://192.168.29.161:3002
+   ▲ Next.js 15.5.21
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.29.161:3000
 
  ✓ Starting...
- ✓ Ready in 1987ms
- ○ Compiling /[locale]/brands/[brand] ...
- ✓ Compiled /[locale]/brands/[brand] in 1460ms (727 modules)
- GET /mr/brands/singer 200 in 3546ms
- ○ Compiling /[locale]/product/[slug] ...
- ✓ Compiled /[locale]/product/[slug] in 713ms (752 modules)
- GET /mr/product/singer-fm-4323 200 in 2488ms
- ○ Compiling /api/products ...
- ✓ Compiled /api/products in 541ms (772 modules)
- GET /api/products 200 in 896ms
- ○ Compiling /[locale]/shop ...
- ✓ Compiled /[locale]/shop in 654ms (774 modules)
- GET /en/shop 200 in 6613ms
- GET /en/shop 200 in 3753ms
- GET /mr/shop 200 in 248ms
- GET /mr/product/answer-classic-plus-heavy-duty-model 200 in 206ms
- GET /hi/product/answer-classic-plus-heavy-duty-model 200 in 159ms
- ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 1164ms (771 modules)
- GET /hi 200 in 2610ms
- GET /hi 200 in 237ms
- ○ Compiling /[locale]/finance ...
- ✓ Compiled /[locale]/finance in 836ms (779 modules)
- GET /hi/finance 200 in 1920ms
- GET /hi/finance 200 in 928ms
- ✓ Compiled in 4.8s (793 modules)
- ✓ Compiled in 731ms (297 modules)
- GET /hi/finance 200 in 1390ms
- GET /hi/finance 200 in 226ms
- ✓ Compiled in 848ms (793 modules)
- GET /hi/finance 200 in 249ms
- ✓ Compiled in 414ms (793 modules)
- GET /hi/finance 200 in 128ms
- GET /mr 200 in 363ms
- GET /hi/finance 200 in 317ms
- GET /en/finance 200 in 104ms
- GET /hi/finance 200 in 178ms
- GET /en/finance 200 in 118ms
- GET /mr/finance 200 in 103ms
- GET /mr 200 in 151ms
- GET /mr 200 in 144ms
- GET /mr/shop?brand=ZOJE 200 in 565ms
- GET /mr/shop?brand=QMach 200 in 283ms
- GET /mr/shop?brand=MESSER 200 in 375ms
- GET /en/shop 200 in 376ms
- GET /mr/shop 200 in 298ms
- ○ Compiling /[locale]/services ...
- ✓ Compiled /[locale]/services in 1334ms (783 modules)
- GET /mr/services 200 in 2453ms
- GET /mr 200 in 288ms
- ○ Compiling /[locale]/about ...
- ✓ Compiled /[locale]/about in 1567ms (792 modules)
- GET /mr/about 200 in 2813ms
- GET /mr/about 200 in 205ms
- ○ Compiling /[locale]/contact ...
- ✓ Compiled /[locale]/contact in 959ms (796 modules)
- GET /mr/contact 200 in 2028ms
- GET /mr 200 in 241ms
- ○ Compiling /[locale]/compare ...
- ✓ Compiled /[locale]/compare in 1396ms (798 modules)
- GET /mr/compare 200 in 2395ms
- GET /mr/compare 200 in 72ms
- GET /mr 200 in 785ms
- GET /mr/shop?brand=JACK 200 in 397ms
- GET /mr/shop?brand=ANSWER 200 in 211ms
- GET /mr/shop?brand=USHA 200 in 194ms
- GET /mr/shop?brand=GEMINY 200 in 175ms
- GET /mr/shop?brand=MODI 200 in 243ms
- ✓ Compiled in 1438ms (804 modules)
- ✓ Compiled in 940ms (805 modules)
- GET /mr 200 in 496ms
- GET /mr 200 in 223ms
- ✓ Compiled in 708ms (805 modules)
- GET /mr/shop?brand=SINGER 200 in 1593ms
- ○ Compiling /_error ...
- ✓ Compiled /_error in 725ms (1131 modules)
- GET /mr/shop?brand=NIRMA 500 in 1586ms
- GET /mr 200 in 467ms
- GET /mr/shop?brand=SINGER 500 in 726ms
- GET /mr/shop?brand=NIRMA 500 in 722ms
- GET /mr 500 in 714ms
- GET /mr 500 in 2609ms
- GET /mr 500 in 64ms
- GET /mr 500 in 234ms
- GET /mr 500 in 45ms
- GET /mr 500 in 109ms
- GET /mr 500 in 39ms
-[?25h
+ ✓ Ready in 671ms
